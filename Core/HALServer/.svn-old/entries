@@ -1,0 +1,59 @@
+8
+
+dir
+2
+svn+ssh://jonathansharer@slice.stevestreza.com/halproject/HALServer
+svn+ssh://jonathansharer@slice.stevestreza.com/halproject
+
+
+
+2008-09-13T02:42:24.774876Z
+2
+syco
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+281ea6c8-ba56-0410-8cef-a629517d7918
+
+hald.py
+file
+
+
+
+
+2008-11-17T00:04:21.000000Z
+e79be761731509a0c6db26728d88ee28
+2008-09-13T02:42:24.774876Z
+2
+syco
+
+halserver.py
+file
+
+
+
+
+2008-11-17T00:04:21.000000Z
+32088b62f99fc0861059d89c318d319e
+2008-09-13T02:42:24.774876Z
+2
+syco
+
+device.py
+file
+0
+
+
+add
+

@@ -1,0 +1,11 @@
+The HAL Project
+===============
+The HAL Project is a home automation project using a centralized event dispatch server, connected to physical and logical devices. Physical devices (lamps, motion sensors, etc.) are connected via Arduino boards, X10 connections, etc.
+
+Requirements
+============
+The HAL Project currently only runs on Python 2.4 or higher with pySerial.
+
+License
+=======
+The HAL Project is licensed under the New BSD License.

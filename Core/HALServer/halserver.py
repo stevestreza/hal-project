@@ -10,8 +10,9 @@ Copyright (c) 2008 __MyCompanyName__. All rights reserved.
 import sys
 import os
 import unittest
+import threading
 
-class HALServer:
+class HALServer ():
 	mAbortRunLoop = False
 	def __init__(self):
 		pass

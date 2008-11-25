@@ -9,7 +9,7 @@ Copyright (c) 2008 __MyCompanyName__. All rights reserved.
 
 import sys
 import os
-import arduino
+from Arduino import arduino
 
 
 class hald:

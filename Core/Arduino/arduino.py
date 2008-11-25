@@ -12,7 +12,7 @@ import os
 import unittest
 import time
 
-#from device import Device
+from HALServer.device import Device
 import serial
 
 class Arduino:

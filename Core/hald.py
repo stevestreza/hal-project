@@ -10,7 +10,7 @@ Copyright (c) 2008 __MyCompanyName__. All rights reserved.
 import sys
 import os
 from Arduino import arduino
-
+from Arduino import ArduinoShell
 
 class hald:
 	switch = {'testLight': 'A113'} # address format: <Controller(char)><Digital(1/0)><Pin Number>
@@ -50,5 +50,4 @@ class hald:
 		self.arduino[name] = newArduino
 
 if __name__ == '__main__':
-	main()
-
+	ArduinoShell.arduinoShellPrompt()

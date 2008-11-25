@@ -112,6 +112,10 @@ class ArduinoShell:
 			else:
 				sys.stderr.write("Error: Option is invalid\n")
 
-if __name__ == '__main__':
+def arduinoShellPrompt():
+	"""docstring for arduinoShellPrompt"""
 	arduino = ArduinoShell("/dev/tty.usbserial-A80081qe")
 	arduino.promptLoop()
+
+if __name__ == '__main__':
+	arduinoShellPrompt()
